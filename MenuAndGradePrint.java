@@ -11,11 +11,11 @@ public class MenuAndGradePrint {
 		
 		
 		while(swi){
-			System.out.println("1. ¼ºÀû ÀÔ·Â ¹× ÃÑÁ¡ Æò±Õ °è»ê");
-			System.out.println("2. ¼ºÀû Ãâ·Â");
-			System.out.println("3. ¼ºÀû Á¤·Ä");
-			System.out.println("4. ¼ºÀû Á¤Á¤");
-			System.out.println("5. ³ª°¡±â");
+			System.out.println("1. ì„±ì  ì…ë ¥ ë° ì´ì  í‰ê·  ê³„ì‚°");
+			System.out.println("2. ì„±ì  ì¶œë ¥");
+			System.out.println("3. ì„±ì  ì •ë ¬");
+			System.out.println("4. ì„±ì  ì •ì •");
+			System.out.println("5. ë‚˜ê°€ê¸°");
 			
 			Scanner scan = new Scanner(System.in); 
 			System.out.print("> ");
@@ -23,22 +23,22 @@ public class MenuAndGradePrint {
 			
 			
 			switch(choice){
-				case 1: // ¼ºÀû ÀÔ·Â ¹× ÃÑÁ¡°ú Æò±Õ °è»ê
+				case 1: // ì„±ì  ì…ë ¥ ë° ì´ì ê³¼ í‰ê·  ê³„ì‚°
 					break;
-				case 2: // ¼ºÀû Ãâ·Â
+				case 2: // ì„±ì  ì¶œë ¥
 					System.out.println("C : "+ subject_c + " " + "Java : " + subject_java + " " + "Python : " + subject_python + " " + "SQL : " + subject_sql);
-					System.out.println("ÃÑÁ¡ :" + sum);
-					System.out.println("Æò±Õ :" + average);
+					System.out.println("ì´ì  :" + sum);
+					System.out.println("í‰ê·  :" + average);
 					break;
-				case 3: // ¼ºÀû Á¤·Ä
+				case 3: // ì„±ì  ì •ë ¬
 					break;
-				case 4: // ¼ºÀû Á¤Á¤
+				case 4: // ì„±ì  ì •ì •
 					break;
-				case 5 : // ³ª°¡±â
+				case 5 : // ë‚˜ê°€ê¸°
 					swi = false;
 					break;
 				default :
-					System.out.println("Àß¸ø ÀÔ·ÂÇÏ¼Ì½À´Ï´Ù.");
+					System.out.println("ì˜ëª» ì…ë ¥í•˜ì…¨ìŠµë‹ˆë‹¤.");
 				
 			}
 		}
